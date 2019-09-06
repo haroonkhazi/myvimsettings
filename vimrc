@@ -8,6 +8,7 @@ let g:gruvbox_contrast_dark = '(dark)'
 let g:airline_theme = 'gruvbox'
 let g:airline#extensions#branch#enabled=1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
