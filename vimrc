@@ -7,7 +7,10 @@ set background=dark
 let g:gruvbox_contrast_dark = '(dark)'
 let g:airline_theme = 'gruvbox'
 let g:airline#extensions#branch#enabled=1
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#stl_format_err=1
+let g:airline#extensions#stl_format_warn=1
+let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
@@ -34,11 +37,16 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
 set smartindent
 set listchars=eol:¬,tab:>-,trail:-
 set shiftwidth=4 tabstop=4 expandtab
 set number
 set showcmd
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
 filetype indent on
 set cursorline
 set showmatch
