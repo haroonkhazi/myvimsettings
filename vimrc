@@ -7,9 +7,13 @@ set background=dark
 let g:gruvbox_contrast_dark = '(dark)'
 let g:airline_theme = 'gruvbox'
 let g:airline#extensions#branch#enabled=1
+<<<<<<< HEAD
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#stl_format_err=1
 let g:airline#extensions#stl_format_warn=1
+=======
+let g:airline#extensions#tabline#enabled = 1
+>>>>>>> 4cb74b346ccdf7eeb7f9dbf0d594e017cc16355a
 let g:airline#extensions#ale#enabled = 1
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
