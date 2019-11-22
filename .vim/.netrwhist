@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/haroonkhazi/Desktop/EECS_301/lab1-assignment-haroonkhazi/Lab1-Report'
+let g:netrw_dirhist_2='/Users/haroonkhazi/Desktop/EECS377/connected-devices-spring19/ansible/roles/cloud_mqtt'
+let g:netrw_dirhist_3='/Users/haroonkhazi/Desktop/EECS377/connected-devices-spring19/Mobile/iOS/Lampi/cartfile'
+let g:netrw_dirhist_4='/Users/haroonkhazi/Desktop/EECS377/connected-devices-spring19/ansible/ansible_cache'
+let g:netrw_dirhist_5='/Users/haroonkhazi/Desktop/EECS377/connected-devices-spring19/ansible/roles'
+let g:netrw_dirhist_6='/Users/haroonkhazi/Desktop/EECS377/connected-devices-spring19/ansible/roles/cloud_mqtt'
+let g:netrw_dirhist_7='/Users/haroonkhazi/.ssh'
